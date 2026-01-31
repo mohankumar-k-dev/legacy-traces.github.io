@@ -18,7 +18,7 @@ function App() {
   return (
     <CartProvider>
       <ScrollToTop />
-      <div className="app min-h-screen flex flex-col bg-white dark:bg-[#121212] text-black dark:text-white transition-colors duration-300">
+      <div className="app min-h-screen flex flex-col">
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />

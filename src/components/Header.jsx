@@ -32,7 +32,7 @@ const Header = () => {
                     {/* Actions */}
                     <div className="flex items-center gap-4">
                         <button onClick={toggleTheme} className="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors">
-                            {theme === 'light' ? <Sun size={20} /> : <Moon size={20} />}
+                            {theme === 'dark' ? <Moon size={20} /> : <Sun size={20} />}
                         </button>
 
                         <Link to="/favorites" className="relative p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors">
